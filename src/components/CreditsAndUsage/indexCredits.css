@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.creditandusage-cnt{
+    background-color:#f5f4f4;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+   
+    
+}
+.creditandusage-heading{
+    font-family:'Inter';
+    color: #172B4D;
+    font-size:24px;
+    
+    margin-left:20px;
+    margin-top:20px;
+    align-self:flex-start;
+    margin-top:0px;
+}
+.creditsnadusage-card-cnt{
+    background-color:#ffffff;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width: 90%;
+    height:80%;
+    margin-left:40px;
+    border-radius:6px;
+}  
+.credits-image{
+    height:160px;
+    width:186px;
+}
+
+.credits-card-heading{
+    font-size:20px;
+    font-family:'Inter';
+    color: #172B4D;
+    font-weight:400px;
+}
+.credits-card-para{
+    font-family:'Inter';
+    font-size:16px;
+    color:#3f4246;
+    margin-top:0px;
+}
+.buycredits-button{
+    border:none;
+    outline:none;
+    color:#ffffff;
+    font-family:'Inter';
+    font-size:14px;
+    padding:9px 18px;
+    border-radius:5px;
+    outline:none;
+    cursor:pointer;
+    background-color:#096EB6;
+}
+.credits-learn-more-para{
+    font-family:'Inter';
+    font-size:14px;
+    color:#0074EB;
+    margin-top:9px;
+}

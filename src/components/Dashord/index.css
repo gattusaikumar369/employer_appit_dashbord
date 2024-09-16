@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.dashbord-cnt{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:flex-start;
+    min-height:100vh;
+    background-color:#ffffff;
+    width:250px;
+    box-shadow:2px 0 1px  #9e9c9c ;
+     
+}
+
+.dashboard-list-items-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    padding-left:20px;
+    margin-top:20px;
+}
+
+.dashboard-list-items-cnt{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+    margin:0;
+    padding:0;
+    width: 220px;
+}
+.dashboard-link-data-cnt{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.dashboard-list-item{
+    list-style-type:none;
+    width:100%;
+    border-radius:3px;
+    margin-top:10px;
+    padding:0;
+   
+   
+}
+.dashboard-list-item:hover{
+    background-color:#d6ecfc;
+    
+}
+.dashboard-database-list-item{
+    list-style-type:none;
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.dashboard-link-item{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    text-decoration:none;
+    height:40px;
+}
+.dash-item-name{
+    color: #172b4d;
+    font-size:14px;
+    font-family:'Inter';
+    font-weight:400;
+    margin-left:8px;
+    width:152px;
+    height:20;
+}
+.dash-icon{
+    color: #000000;
+}
+
+.database-link-name-cnt{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+    cursor:pointer;
+    border-radius:3px;
+    width: 100%;
+    height:40px;
+    
+}
+.database-link-name-cnt:hover{
+    background-color:#d6ecfc;
+    
+}
+
+.dash-data-sub-items-cnt{
+    display:flex;
+    flex-direction:column;
+    margin-left:40px;
+    
+}
+.dash-data-link-name{
+    text-decoration:none;
+    color:#172b4d;
+    font-size:14px;
+    font-family:'Inter';
+    font-weight:300;
+    margin-top:0px;
+    padding:2px 5px;
+}
+
+.dashboard-icons{
+    color:#172b4d;
+    height:20px;
+    width:20px;
+    padding-left:8px;
+}
+.link-item{
+    text-decoration:none;
+    
+    
+}
+.hr-line{
+    background-color:#b9b2b2;
+    width:100%;
+
+}
+.dashboard-contact-list-items-cnt{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+    margin-left:10px;
+}
+.contact-list-items-cnt{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin:0;
+    padding:0;
+    
+}
+
+.buy-credits-button{
+    font-family:'Inter';
+    color:#141414;
+    padding:7px 19px;
+    font-size:14px;
+    outline:none;
+    cursor:pointer;
+
+    
+}
+
+.dash-data-link-name:hover{
+    background-color:#e9f3fa;
+    border-radius:5px;  
+}
+
+
+
+.click-item{
+    background-color: #bbd4f0;
+    color: #007bff;
+}
+
